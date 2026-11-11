@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Pour les donneurs d'ordre : attestations de vigilance URSSAF des sous-traitants collectées, vérifiées et relancées tous les six mois.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Vigilance Sous-traitants</a></div>
-  <nav class="top"><a href="#quoi" data-ev="click_nav_quoi">Ce que vous obtenez</a><a href="price.html" data-ev="click_nav_prix">Prix</a><a href="#exemple" data-ev="click_nav_exemple">Exemple</a><a href="#start" data-ev="click_nav_start">Commencer</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Vigilance Sous-traitants</a>
+  <nav><a href="#quoi" data-ev="click_nav_quoi">Ce que vous obtenez</a><a href="price.html" data-ev="click_nav_prix">Prix</a><a href="#exemple" data-ev="click_nav_exemple">Exemple</a><a href="#start" data-ev="click_nav_start">Commencer</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Les attestations de vigilance de vos sous-traitants à jour — sans relancer chacun à la main</h1>
-    <p class="sub">Pour les entreprises qui font appel à des sous-traitants : chaque sous-traitant dépose son attestation de vigilance URSSAF, son authenticité est vérifiée, une relance part avant les six mois, et vous gardez un dossier daté pour chaque contrat.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">J'en ai besoin</a>
-    <p class="cta-note">Accès anticipé · Aucun paiement n'est encore accepté sur cette page</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Pour les entreprises qui font appel</p>
+      <h1 class="rise" style="--i:1" data-len="long">Les attestations de vigilance de vos sous-traitants à jour&nbsp;<span class="soft">— sans relancer chacun à la main</span></h1>
+      <p class="rise" style="--i:2">Pour les entreprises qui font appel à des sous-traitants : chaque sous-traitant dépose son attestation de vigilance URSSAF, son authenticité est vérifiée, une relance part avant les six mois, et vous gardez un dossier daté pour chaque contrat.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">J'en ai besoin</a>
+      <p class="meta rise" style="--i:4">Accès anticipé · Aucun paiement n'est encore accepté sur cette page</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">attestations</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="250" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="282" font-size="32" fill="#0a1524">Collecte</text><rect x="130" y="350" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="382" font-size="32" fill="#0a1524">Vérification</text><rect x="130" y="450" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="482" font-size="32" fill="#0a1524">Relances</text><rect x="130" y="550" width="44" height="44" rx="8" fill="#dfe8f7" /><text x="200" y="582" font-size="32" fill="#0a1524">URSSAF</text><rect x="700" y="250" width="360" height="400" rx="20" fill="#dfe8f7" /><text x="730" y="314" font-size="34" font-weight="600" fill="#0a1524">dossier</text><rect x="740" y="450" width="48" height="160" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="820" y="520" width="48" height="90" rx="8" fill="#12397a" stroke="#dde2ea" stroke-width="2" /><rect x="900" y="400" width="48" height="210" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="980" y="480" width="48" height="130" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Pour</dt><dd>Les entreprises qui font appel</dd></div>
+      <div><dt>Collecte</dt><dd>Son attestation de vigilance</dd></div>
+      <div><dt>Contrôle</dt><dd>Son authenticité est vérifiée</dd></div>
+      <div><dt>Accès</dt><dd>Accès anticipé</dd></div>
+    </dl>
+  </section>
 
   <section id="quoi" data-view="features_view">
-    <h2>Ce que vous obtenez</h2>
-    <div class="grid">
-      <div class="card"><b>Collecte</b><span>Chaque sous-traitant dépose son attestation par un lien, sans échange de mails.</span><br><a class="btn" href="price.html" data-ev="feature_collecte">J'en ai besoin</a></div>
-      <div class="card"><b>Vérification</b><span>L'authenticité de l'attestation contrôlée auprès de l'URSSAF avec son code de sécurité.</span><br><a class="btn" href="price.html" data-ev="feature_verification">J'en ai besoin</a></div>
-      <div class="card"><b>Relances</b><span>Une relance automatique avant que l'attestation ait six mois.</span><br><a class="btn" href="price.html" data-ev="feature_relances">J'en ai besoin</a></div>
-      <div class="card"><b>Dossier daté</b><span>Toutes les attestations d'un sous-traitant, avec leurs dates de dépôt et de contrôle.</span><br><a class="btn" href="price.html" data-ev="feature_dossier">J'en ai besoin</a></div>
+    <div class="stack"><h2>Ce que vous obtenez</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="36" font-weight="600" fill="#0a1524">Collecte</text><rect x="130" y="200" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polyline points="142,226 152,236 166,216" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="213" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="290" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><polyline points="142,316 152,326 166,306" fill="none" stroke="#12397a" stroke-width="4" /><rect x="200" y="303" width="290" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="380" width="48" height="48" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="393" width="240" height="22" rx="8" fill="#dde2ea" /><text x="130" y="490" font-size="30" fill="#566174">attestation</text></svg></div>
+        <h3>Collecte</h3><p>Chaque sous-traitant dépose son attestation par un lien, sans échange de mails.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_collecte">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="90" y="60" width="460" height="480" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">Vérification</text><line x1="120" y1="160" x2="510" y2="160" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="190" width="300" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="246" width="240" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="302" width="340" height="22" rx="8" fill="#dde2ea" /><rect x="120" y="358" width="180" height="22" rx="8" fill="#dde2ea" /><circle cx="640" cy="300" r="70" fill="#dfe8f7" /><polyline points="606,300 632,328 678,270" fill="none" stroke="#12397a" stroke-width="8" /><text x="120" y="480" font-size="32" fill="#566174">URSSAF</text></svg></div>
+        <h3>Vérification</h3><p>L'authenticité de l'attestation contrôlée auprès de l'URSSAF avec son code de sécurité.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_verification">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="60" width="660" height="480" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="110" y="130" font-size="36" font-weight="600" fill="#0a1524">Relances</text><line x1="110" y1="168" x2="690" y2="168" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="200" width="500" height="72" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><circle cx="164" cy="236" r="12" fill="#b9c3d2" /><text x="196" y="246" font-size="30" fill="#0a1524">six mois</text><rect x="120" y="310" width="500" height="72" rx="28" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><circle cx="164" cy="346" r="12" fill="#b9c3d2" /><text x="196" y="356" font-size="30" fill="#0a1524">relance</text><rect x="120" y="420" width="500" height="72" rx="28" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><circle cx="164" cy="456" r="12" fill="#12397a" /><text x="196" y="466" font-size="30" font-weight="600" fill="#0a1524">contrat</text></svg></div>
+        <h3>Relances</h3><p>Une relance automatique avant que l'attestation ait six mois.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_relances">J'en ai besoin</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="80" width="280" height="440" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="80" width="280" height="440" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="84" y="140" font-size="30" font-weight="600" fill="#0a1524">Dossier</text><text x="484" y="140" font-size="30" font-weight="600" fill="#0a1524">dates</text><rect x="90" y="190" width="180" height="20" rx="8" fill="#b9c3d2" /><rect x="90" y="250" width="140" height="20" rx="8" fill="#b9c3d2" /><rect x="90" y="310" width="200" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="190" width="160" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="250" width="210" height="20" rx="8" fill="#b9c3d2" /><rect x="490" y="310" width="120" height="20" rx="8" fill="#b9c3d2" /><polygon points="352,292 430,292 430,280 456,308 430,336 430,324 352,324" fill="#12397a" /><text x="484" y="470" font-size="30" fill="#566174">dépôt</text></svg></div>
+        <h3>Dossier daté</h3><p>Toutes les attestations d'un sous-traitant, avec leurs dates de dépôt et de contrôle.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dossier">J'en ai besoin</a>
+      </article>
     </div>
   </section>
 
-  <section id="exemple" data-view="example_view">
-    <h2>Exemple (données fictives)</h2>
-    <p class="fine">Entreprise du bâtiment avec 18 sous-traitants réguliers. En mars, 4 attestations arrivent à six mois : les sous-traitants reçoivent une relance, 3 déposent la nouvelle attestation dans la semaine, et la quatrième apparaît en rouge avant la signature du prochain bon de commande.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choisir une formule</a>
+  <section id="exemple" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Exemple</h2>
+      <p>Entreprise du bâtiment avec 18 sous-traitants réguliers. En mars, 4 attestations arrivent à six mois : les sous-traitants reçoivent une relance, 3 déposent la nouvelle attestation dans la semaine, et la quatrième apparaît en rouge avant la signature du prochain bon de commande.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choisir une formule</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">relance</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">attestation</text><circle cx="960" cy="150" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">semaine</text><rect x="120" y="300" width="960" height="420" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="380" font-size="36" font-weight="600" fill="#0a1524">sous-traitants</text><rect x="170" y="440" width="64" height="64" rx="12" fill="#12397a" /><rect x="260" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="350" y="440" width="64" height="64" rx="12" fill="#12397a" /><rect x="440" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="530" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><rect x="620" y="440" width="64" height="64" rx="12" fill="#dfe8f7" /><text x="170" y="640" font-size="32" fill="#566174">six mois</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Comment ça marche</h2>
-    <p>Quand une entreprise confie à un sous-traitant un contrat d'au moins 5 000 euros hors taxes, elle doit obtenir de lui une attestation de vigilance délivrée par l'URSSAF, à la conclusion du contrat puis tous les six mois jusqu'à la fin de son exécution. Le donneur d'ordre doit aussi s'assurer de l'authenticité de l'attestation. Le seuil s'apprécie aussi sur plusieurs contrats successifs avec le même sous-traitant. Les particuliers qui font travailler quelqu'un pour leurs besoins personnels ne sont pas concernés par ce service : il s'adresse aux entreprises qui sous-traitent une partie de leur activité, souvent de façon répétée, et qui doivent pouvoir montrer à tout moment qu'elles ont bien vérifié chacun de leurs sous-traitants.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Comment ça marche</h2></div>
+    <div class="stack">
+      <p>Quand une entreprise confie à un sous-traitant un contrat d'au moins 5 000 euros hors taxes, elle doit obtenir de lui une attestation de vigilance délivrée par l'URSSAF, à la conclusion du contrat puis tous les six mois jusqu'à la fin de son exécution. Le donneur d'ordre doit aussi s'assurer de l'authenticité de l'attestation. Le seuil s'apprécie aussi sur plusieurs contrats successifs avec le même sous-traitant. Les particuliers qui font travailler quelqu'un pour leurs besoins personnels ne sont pas concernés par ce service : il s'adresse aux entreprises qui sous-traitent une partie de leur activité, souvent de façon répétée, et qui doivent pouvoir montrer à tout moment qu'elles ont bien vérifié chacun de leurs sous-traitants.</p>
     <p>Dans une entreprise qui travaille avec une dizaine ou quelques dizaines de sous-traitants, cette vérification se fait souvent par mail et dans un tableau : demander l'attestation, l'enregistrer, noter sa date, se souvenir de la redemander six mois plus tard. Les oublis arrivent au moment où le chantier ou la mission bat son plein, et le dossier est incomplet le jour où il faut le montrer.</p>
     <p>Le service commence par la liste de vos sous-traitants, avec leur numéro SIRET et la personne à contacter. Chaque sous-traitant reçoit un lien pour déposer son attestation de vigilance en PDF ; il n'a pas besoin de créer de compte. Les attestations arrivent au même endroit, rangées par sous-traitant.</p>
     <p>Chaque attestation déposée est contrôlée : le service vérifie son authenticité auprès de l'URSSAF à l'aide du code de sécurité qui figure sur le document, et note la date de délivrance. Une attestation qui ne correspond pas au sous-traitant, ou dont l'authenticité n'est pas confirmée, apparaît tout de suite en rouge.</p>
@@ -112,31 +146,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Le dossier de chaque sous-traitant garde l'historique : toutes les attestations, leurs dates de dépôt et de contrôle, les relances envoyées. Le jour où l'on vous demande comment vous avez exercé votre devoir de vigilance, vous exportez ce dossier au lieu de chercher dans les boîtes mail.</p>
     <p>Le service est pensé pour les PME qui font appel à des sous-traitants : bâtiment, nettoyage, transport, sécurité, prestations informatiques. Il fonctionne dans le navigateur, sans installation, et plusieurs personnes de l'entreprise peuvent suivre les mêmes sous-traitants.</p>
     <p>Le service collecte et contrôle les attestations et garde les dossiers ; il ne remplace ni l'URSSAF ni un conseil juridique, et le donneur d'ordre reste responsable de son obligation de vigilance.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions fréquentes</h2>
-    <h3>Quand faut-il demander l'attestation de vigilance ?</h3>
-    <p>Pour un contrat d'au moins 5 000 euros hors taxes, à la conclusion du contrat puis tous les six mois jusqu'à la fin de son exécution.</p>
-    <h3>Comment vérifier l'authenticité d'une attestation de vigilance ?</h3>
-    <p>Avec le code de sécurité qui figure sur l'attestation, auprès de l'URSSAF ; le service fait ce contrôle à chaque dépôt.</p>
-    <h3>Le sous-traitant doit-il créer un compte ?</h3>
-    <p>Non. Il dépose son attestation en PDF par le lien qu'il reçoit.</p>
-    <h3>Est-ce un conseil juridique ?</h3>
-    <p>Non. Le service collecte et contrôle les attestations ; le donneur d'ordre reste responsable de son obligation.</p>
-    <h3>Puis-je déjà l'utiliser ?</h3>
-    <p>Pas encore. Le service est en préparation et nous vérifions s'il est utile aux entreprises.</p>
+    <div class="stack"><h2>Questions fréquentes</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Quand faut-il demander l'attestation de vigilance ?</h3><p>Pour un contrat d'au moins 5 000 euros hors taxes, à la conclusion du contrat puis tous les six mois jusqu'à la fin de son exécution.</p></div>
+      <div class="split flip"><h3>Comment vérifier l'authenticité d'une attestation de vigilance ?</h3><p>Avec le code de sécurité qui figure sur l'attestation, auprès de l'URSSAF ; le service fait ce contrôle à chaque dépôt.</p></div>
+      <div class="split flip"><h3>Le sous-traitant doit-il créer un compte ?</h3><p>Non. Il dépose son attestation en PDF par le lien qu'il reçoit.</p></div>
+      <div class="split flip"><h3>Est-ce un conseil juridique ?</h3><p>Non. Le service collecte et contrôle les attestations ; le donneur d'ordre reste responsable de son obligation.</p></div>
+      <div class="split flip"><h3>Puis-je déjà l'utiliser ?</h3><p>Pas encore. Le service est en préparation et nous vérifions s'il est utile aux entreprises.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Ajoutez vos sous-traitants</h2>
-    <p><label>Nombre de sous-traitants réguliers<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— choisissez —</option><option>Moins de 6</option><option>6–25</option><option>26–100</option><option>Plus de 100</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Commencer</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Ajoutez vos sous-traitants</h2>
+    </div>
+    <div class="tile stack">
+      <label>Nombre de sous-traitants réguliers<select data-ev-focus="form_start"><option value="">— choisissez —</option><option>Moins de 6</option><option>6–25</option><option>26–100</option><option>Plus de 100</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Commencer</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Vigilance Sous-traitants</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Confidentialité</a></p>
-  <p class="muted">Collecte et contrôle des attestations ; ni l'URSSAF ni un conseil juridique. Le donneur d'ordre reste responsable de sa vigilance.</p>
+  <p>Collecte et contrôle des attestations ; ni l'URSSAF ni un conseil juridique. Le donneur d'ordre reste responsable de sa vigilance.</p>
 </div></footer>
 
 </body>
